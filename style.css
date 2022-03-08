@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background: linear-gradient(180deg, #919191, #313131) fixed;
+}
+
+header {
+  background: -webkit-linear-gradient(left, #ffee00, #d1d1d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 5pc;
+  font-size: 2pc;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+#dk-btns {
+  margin-top: 10pc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#dk-btns button {
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 15px;
+  font-family: "Pacifico", cursive;
+  font-size: 2pc;
+  color: #ffee00;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 3px;
+  border-color: #3b3b3b;
+  background: linear-gradient(180deg, #ffbb00, #3b3b3b);
+  transition: 0.01s ease-in-out;
+}
+
+#dk-btns button:active {
+  font-size: 3pc;
+  transition: 0.01s ease-in-out;
+}
+
+#dk-btns button:hover {
+  color: #313131;
+  transition: 0.01s ease-in-out;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+#drumkit {
+  margin-top: 14pc;
+  width: 598px;
+  height: 418px;
+  cursor: pointer;
+  justify-content: center;
+  background: url("drums.png");
+  background-repeat: no-repeat;
+}
+
+#drumkit:active {
+  background-size: 628px 448px;
+  width: 628px;
+  height: 448px;
+}

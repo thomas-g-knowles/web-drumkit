@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Web Drum Kit</title>
+    <meta
+      name="description"
+      content="This webpage allows you to play a virtual drum kit, using either mouse clicks or the dedicated keybinds."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Welcome to the Web Drum Kit!</h1></header>
+    <section id="dk-btns">
+      <button id="boom" onclick="playSound(this)">Boom</button>
+      <button id="clap" onclick="playSound(this)">Clap</button>
+      <button id="hihat" onclick="playSound(this)">Hihat</button>
+      <button id="kick" onclick="playSound(this)">Kick</button>
+      <button id="openhat" onclick="playSound(this)">Open Hat</button>
+      <button id="ride" onclick="playSound(this)">Ride</button>
+      <button id="snare" onclick="playSound(this)">Snare</button>
+      <button id="tink" onclick="playSound(this)">Tink</button>
+      <button id="tom" onclick="playSound(this)">Tom</button>
+    </section>
+    <div><button id="drumkit" onclick="playRand(this)"></button></div>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
